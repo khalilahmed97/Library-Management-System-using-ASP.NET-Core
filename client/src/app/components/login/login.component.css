@@ -1,0 +1,71 @@
+:host{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  
+}
+
+.register_form{
+    border: 1px solid white;
+    background-color: rgb(48, 46, 46);
+    width: 500px;
+    height:fit-content;
+   
+}
+
+.lib_info{
+    border-left: 1px solid white;
+    width: 350px;
+    padding: 1rem;
+    
+    
+}
+
+.lib_info mat-list-item {
+    height: auto;
+}
+
+.lib_info mat-list-item p{
+   white-space: normal;
+   font-style: italic;
+   font-size: 16px;
+}
+
+mat-card{
+    background-color: rgb(48, 46, 46);
+
+}
+mat-form-field{
+    width: 100%;
+   
+    
+}
+input {
+background-color: rgb(83, 79, 79);
+
+}
+::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+    background-color: rgb(83, 79, 79) !important;
+}
+::ng-deep .mat-mdc-text-field-wrapper input.mat-mdc-input-element {
+    color: white !important;  /* Changes input text color to white */
+  }
+
+  ::ng-deep .mat-mdc-card-header{
+    font-size: 30px;
+    display: flex;
+    color:rgb(42, 214, 148);
+    font-weight: bold;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  ::ng-deep .mat-mdc-card-actions{
+    display: flex;
+    justify-content: center;
+  }
+  ::ng-deep .mat-icon{
+    background-color:rgb(83, 79, 79);
+    visibility:visible;
+    cursor: pointer;
+  }

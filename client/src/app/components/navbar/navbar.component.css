@@ -1,0 +1,17 @@
+:host{
+  
+}
+mat-toolbar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+mat-toolbar div{
+    
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

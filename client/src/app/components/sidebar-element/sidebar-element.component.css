@@ -1,0 +1,22 @@
+mat-card{
+    width: 90%;
+    margin: 0.5rem auto;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+mat-card-content{
+  background-color: rgb(77, 75, 75);
+  border-radius: 5px;
+  height: 60px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: white;
+}
+
+mat-nav-list a{
+  color: white;
+}
+mat-nav-list a .active-link{
+  background-color: white;
+  border-radius: 0%;
+}

@@ -1,0 +1,12 @@
+<mat-toolbar style="background-color: rgb(126, 5, 110)">
+    <span>Library Management System</span>
+    <div>
+      @if(isLogIn===true){
+        <span>Hello, {{name}} </span>
+      }
+    
+      <button mat-flat-button style="color:black; background-color:rgb(42, 214, 148); border-radius: 5px; font-size: 18px;">Profile</button>
+      <button mat-flat-button style="background-color:rgb(211, 63, 26); border-radius: 5px; font-size: 18px;" (click)="logout()">Logout</button>
+    </div>
+</mat-toolbar>
+  

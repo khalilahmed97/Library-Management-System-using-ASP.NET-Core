@@ -1,0 +1,33 @@
+:host{
+    font-size: medium;
+    display: block;
+    padding: 1rem;
+   
+    
+}
+mat-form-field{
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+button{
+    cursor: pointer;
+}
+mat-card{
+    background-color: rgba(77, 75, 75);
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+::ng-deep .mat-expansion-panel{
+    color: rgba(77, 75, 75);
+}
+table{
+    width: 500px;
+    
+}
+mat-panel-description{
+    color: black;
+}

@@ -1,0 +1,28 @@
+body{
+    font-family:"Roboto", sans-serif; font-size: 14px;
+}
+mat-sidenav-container{
+    
+    height: 100vh;
+}
+
+mat-sidenav{
+    background-color: rgb(77, 75, 75);
+    border-radius: 0px;
+    flex: 1 1 auto;
+    width: 200px;
+}
+
+mat-sidenav-content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+mat-sidenav-content main {
+   
+    background-color: rgb(40, 38, 38);
+    padding: 10px;
+    flex: 1 1 auto;
+}
+
